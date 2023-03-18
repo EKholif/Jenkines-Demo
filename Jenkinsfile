@@ -15,6 +15,13 @@ pipeline {
           }
         }
 
+        
+        stage('put') {
+          steps {
+            echo 'hello  helooo'
+          }
+        }
+
       }
     }
 
@@ -24,5 +31,10 @@ pipeline {
       }
     }
 
+  stage('Maven 3.6.0') {
+      steps {
+        echo 'maven'
+      }
+    }
   }
 }
