@@ -11,7 +11,7 @@ pipeline {
 
         stage('error') {
           steps {
-            echo 'hello'
+            echo 'hello  helooo'
           }
         }
 
